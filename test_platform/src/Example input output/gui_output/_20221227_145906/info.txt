@@ -1,0 +1,8 @@
+Folder: C:/Users/Accutures2/Documents/tmp/Car1.raw
+Start Frame: 1
+End Frame: 3
+AoLP Hue Scale Factor: 1.5
+AoLP Brightness: 0.75
+DoLP Saturation in AoLP: 0.43
+Min S0 in AoLP Display: 0.63
+Max S0 in AoLP Display: 1.0
