@@ -6,12 +6,16 @@ import kittenPic from './RGB.svg.png'
   const kitten = React.useRef(null);
   useEffect(() => {
     window.Caman(`#${kitten.current.id}`, function () {
-      this.saturation(90)
-      // this.curves('r', [0, 0], [180, 180], [120, 120], [0, 255]);
+      this.threshold(100 );
+      // this.reset()
+      // this.hue(90)
+      // this.curves('r', [0, 0], [120, 120], [180, 180], [255, 255]);
+      // this.curves('g', [0, 0], [120, 60], [180, 100], [255, 100]);
+      // this.curves('b', [0, 0], [120, 60], [180, 100], [255, 100]);
       // this.brightness(10);
       // this.contrast(30);
       // this.sepia(60);
-      // this.saturation(-30);
+      // this.saturation(0);
       this.render();
     });
   }, [kitten.current]);
